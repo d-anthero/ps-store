@@ -1,0 +1,48 @@
+.container_card{
+    width: 220px;
+    height: 390px;
+    
+    
+}
+
+.container_card:hover{
+    transform: scale(1.1);
+}
+
+.image_card{
+    position: relative;
+}
+
+.image_card > img {
+    min-width: 100%;
+	min-height: 100%;
+    width: 220px;
+    height: 329px;
+	transition: transform .8s;
+}
+
+.image_card > span{
+    display: flex;
+    justify-content: right;
+    padding-left: 10%;
+    width: 100px;
+    background-color: black;
+    color: white;
+    
+    padding-right: 5px;
+    position: absolute;
+    margin-top: -15%;
+    float: right;
+}
+
+.text_card{
+    border: 1px solid grey;
+    margin-top: -3px;
+}
+.text_card_price{
+    font-weight: bold;
+    font-size: larger;
+    float: right;
+
+}
+
